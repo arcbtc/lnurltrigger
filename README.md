@@ -1,4 +1,4 @@
-<img align="center" src="https://i.imgur.com/wVll1tP.png">
+<img align="center" src="https://i.imgur.com/yexX2uy.png">
 
 ## A simple PoS unit for retrofitting any device to accept bitcoin over lightning network ⚡
 
