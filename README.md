@@ -19,7 +19,6 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_m
 
 Install libraries:
 - WiFimanager
-- M5Core2
 - ArduinoJson
 
 <img src="https://i.imgur.com/KEg2QsN.png" width="50%">
@@ -28,8 +27,8 @@ Upload code!
 
 ### Usage
 
-Press A on the M5Stack during "POWERED BY LNBITS" screen<br/>
-Connect to the WiFi captive portal SSID: "⚡lntrigger⚡" PASS: "password1"<br/>
+GPIO 04 is set to monitor capacitance, and if pressed on startup triggers portal access point<br/>
+Connect to the WiFi captive portal SSID: "⚡lnurltrigger⚡" PASS: "password1"<br/>
 Enter your LNBits details, and the pin you wish to set HIGH (default 16)<br/>
 Connect whatever you want turned on (relay,led,etc) to the HIGH pin and GND
 <p align="center">
