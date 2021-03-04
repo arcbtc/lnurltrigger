@@ -30,6 +30,7 @@ Upload code!
 GPIO 04 is set to monitor capacitance, and if pressed on startup triggers portal access point<br/>
 Connect to the WiFi captive portal SSID: "⚡lnurltrigger⚡" PASS: "password1"<br/>
 Enter your LNBits details, and the pin you wish to set HIGH (default 16)<br/>
+LNURLtrigger makes an LNURL-pay in lnbits, which can be printed<br/>
 Connect whatever you want turned on (relay,led,etc) to the HIGH pin and GND
 <p align="center">
 <img width="600px" src="https://i.imgur.com/iSCQQbb.png"><br/>
