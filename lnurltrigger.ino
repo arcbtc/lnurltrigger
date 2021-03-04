@@ -13,7 +13,7 @@
 
 char lnbits_server[40] = "lnbits.com";
 char admin_key[300] = "";
-char lnbits_description[100] = "lntriggerpay";
+char lnbits_description[100] = "lnurltrigger";
 char lnbits_amount[500] = "100";
 char high_pin[5] = "18";
 char time_pin[20] = "3000";
@@ -85,13 +85,12 @@ void getbalance() {
   WiFiClientSecure client;
   const char* lnbitsserver = lnbits_server;
   const char* adminkey = admin_key;
-  Serial.println(adminkey);
 
   if (!client.connect(lnbitsserver, 443)){
     down = true;
     return;   
   }
-Serial.println(lnbitsserver);
+
   String url = "/api/v1/wallet";
   client.print(String("GET ") + url +" HTTP/1.1\r\n" +
                 "Host: " + lnbitsserver + "\r\n" +
@@ -99,26 +98,18 @@ Serial.println(lnbitsserver);
                 "X-Api-Key: "+ adminkey +" \r\n" +
                 "Content-Type: application/json\r\n" +
                 "Connection: close\r\n\r\n");
- Serial.print(String("GET ") + url +" HTTP/1.1\r\n" +
-                "Host: " + lnbitsserver + "\r\n" +
-                "User-Agent: ESP32\r\n" +
-                "X-Api-Key: "+ adminkey +" \r\n" +
-                "Content-Type: application/json\r\n" +
-                "Connection: close\r\n\r\n");
+
   while (client.connected()) {
     String line = client.readStringUntil('\n');
     if (line == "\r") {
-      Serial.print(line);
       break;
     }
     if (line == "\r") {
-      Serial.print(line);
       break;
     }
   }
   
   String line = client.readString();
-  Serial.print(line);
 
   StaticJsonDocument<500> doc;
   DeserializationError error = deserializeJson(doc, line);
