@@ -32,7 +32,7 @@ Connect to the WiFi captive portal SSID: "⚡lnurltrigger⚡" PASS: "password1"<
 Enter your LNBits details, and the pin you wish to set HIGH (default 16)<br/>
 Connect whatever you want turned on (relay,led,etc) to the HIGH pin and GND
 <p align="center">
-<img width="600px" src="https://i.imgur.com/Adgj0Wi.pngg"><br/>
+<img width="600px" src="https://i.imgur.com/iSCQQbb.png"><br/>
 <img align="center" src="https://i.imgur.com/I8T5QVe.gif" width="600px">
 </p>
 
