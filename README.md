@@ -4,7 +4,8 @@
 
 <p align="center">
 <img src="https://i.ibb.co/4WcQR6r/trigger3.gif">
-  <img src="https://i.ibb.co/R002brg/trigger1.gif">
+  <img src="https://i.ibb.co/R002brg/trigger1.gif"><br/>
+    <img width="600px" src="https://i.imgur.com/Ssmn01t.png">
   </p>
 
 ### Installation
@@ -34,6 +35,5 @@ LNURLtrigger makes an LNURL-pay in lnbits, which can be printed<br/>
 Connect whatever you want turned on (relay,led,etc) to the HIGH pin and GND
 <p align="center">
 <img width="600px" src="https://i.imgur.com/iSCQQbb.png"><br/>
-  <img width="600px" src="https://i.imgur.com/Ssmn01t.png"><br/>
 <img align="center" src="https://i.imgur.com/I8T5QVe.gif" width="600px">
 </p>
