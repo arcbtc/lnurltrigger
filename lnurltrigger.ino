@@ -262,7 +262,7 @@ void portal(){
   wm.addParameter(&custom_success_url);
 //IF RESET WAS TRIGGERED, RUN PORTAL AND WRITE FILES
   
-  if (!wm.autoConnect("⚡lntriggerpay⚡", "password1")) {
+  if (!wm.autoConnect("⚡lnurltrigger⚡", "password1")) {
     Serial.println("failed to connect and hit timeout");
     delay(3000);
     ESP.restart();
