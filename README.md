@@ -1,4 +1,4 @@
-<img align="center" src="https://i.imgur.com/yexX2uy.png">
+<img align="center" src="https://i.imgur.com/ecnZ0Ja.png">
 
 ## LNURL-pay PoS unit for retrofitting any device to accept bitcoin over lightning network
 
