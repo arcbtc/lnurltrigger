@@ -38,3 +38,4 @@ Connect whatever you want turned on (relay,led,etc) to the HIGH pin and GND
   <img width="600px" src="https://i.imgur.com/Ssmn01t.png"><br/>
 <img align="center" src="https://i.imgur.com/I8T5QVe.gif" width="600px">
 </p>
+https://www.youtube.com/watch?v=LAh8HryVaeY
