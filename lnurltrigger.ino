@@ -83,6 +83,7 @@ void flash(){
 
 void getbalance() {
   WiFiClientSecure client;
+  client.setInsecure();
   const char* lnbitsserver = lnbits_server;
   const char* adminkey = admin_key;
 
@@ -131,6 +132,7 @@ void getbalance() {
         
 bool makelnurlp() {
   WiFiClientSecure client;
+  client.setInsecure();
   const char* lnbitsserver = lnbits_server;
   const char* adminkey = admin_key;
   const char* lnbitsamount = lnbits_amount;
