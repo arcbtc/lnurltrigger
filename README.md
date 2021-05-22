@@ -1,4 +1,4 @@
-<img align="center" src="https://i.imgur.com/ecnZ0Ja.png">
+<h1>LNURL Trigger, bitcoin lightning powered relay ⚡</h1>
 
 ## LNURL-pay PoS unit for retrofitting any device to accept bitcoin over lightning network
 
