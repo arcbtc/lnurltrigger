@@ -1,4 +1,6 @@
-<h1>LNURL Trigger, bitcoin lightning powered relay ⚡</h1>
+<h1>NO LONGER MAINTAINED, MAINTAINED REPO <a href="https://github.com/arcbtc/bitcoinTrigger/">HERE</a></h1>
+
+<h3>LNURL Trigger, bitcoin lightning powered relay ⚡</h3>
 
 ## LNURL-pay PoS unit for retrofitting any device to accept bitcoin over lightning network
 
