@@ -29,7 +29,7 @@ Install libraries:
 
 <img src="https://i.imgur.com/KEg2QsN.png" width="50%">
 
-Upload code!
+Upload code! (***I'd recommend that you make sure that the cable you buy can transfer data. There are certain cables that can only charge!***)
 
 ### Usage
 
