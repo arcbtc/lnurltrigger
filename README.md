@@ -21,7 +21,7 @@ https://www.arduino.cc/en/software
 
 Install ESP32 boards: 
 
-https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md
+https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 
 Install libraries:
 - WiFimanager
