@@ -24,7 +24,7 @@ Install ESP32 boards:
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md
 
 Install libraries:
-- WiFimanager
+- WiFimanager (There are a few, us the one by 'tablatronix', was also named 'tzapu' in the past like in the screenshot)
 - ArduinoJson
 
 <img src="https://i.imgur.com/KEg2QsN.png" width="50%">
